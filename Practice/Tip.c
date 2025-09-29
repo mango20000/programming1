@@ -7,7 +7,5 @@ int main(){
     printf("Please enter the Total = ");
     scanf("%f", &total);
 
-    //helloworld
-
     return 0;
 }
