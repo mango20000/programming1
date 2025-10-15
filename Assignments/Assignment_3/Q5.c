@@ -8,15 +8,18 @@ int main(){
     printf("Please input number of rows(n); ");
     scanf("%d", &n);
 
-    for(int i=n;i>=0;--i){
-        printf("%c", space);
-
-        for(int j=0;j<=n;j++){
-            for(int k=0;k<=j;k++){
-                printf("%c", star);
-            }
+    for(int i=1;i<=n;i++){
+        for(int j=i-n;j<=0;j++){
+            printf("%c", space);
+        }
+        for(int k=1;k<=i;k++){
+            printf("%c", star);
+        }
+        for(int x=1;x<i;x++){
+            printf("%c", star);
         }
         printf("\n");
     }
+
     return 0;
 }
