@@ -18,8 +18,7 @@ int main(){
         for(int x=1;x<i;x++){
             printf("%c", star);
         }
-        printf("\n");
+       printf("\n");
     }
-
     return 0;
 }
